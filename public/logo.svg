@@ -1,0 +1,90 @@
+<svg width="70ch" height="14em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+    <style>
+        * {
+            font-family: Courier, monospace;
+            font-size: 14px;
+        }
+        tspan, text {
+            font-variant-ligatures: none;
+            dominant-baseline: central;
+            white-space: pre;
+            fill: #bbbbbb;
+        }
+        .bg {
+            stroke-width: "0.5px";
+        }
+        <!-- Foreground custom colors -->
+        .fc0 { fill: #667eea; }
+        .fc1 { fill: #667de9; }
+        .fc2 { fill: #667ce8; }
+        .fc3 { fill: #677ce7; }
+        .fc4 { fill: #677be6; }
+        .fc5 { fill: #677ae4; }
+        .fc6 { fill: #6779e3; }
+        .fc7 { fill: #6879e2; }
+        .fc8 { fill: #6878e1; }
+        .fc9 { fill: #6877e0; }
+        .fc10 { fill: #6876df; }
+        .fc11 { fill: #6975de; }
+        .fc12 { fill: #6975dd; }
+        .fc13 { fill: #6974dc; }
+        .fc14 { fill: #6973da; }
+        .fc15 { fill: #6a72d9; }
+        .fc16 { fill: #6a71d8; }
+        .fc17 { fill: #6a71d7; }
+        .fc18 { fill: #6a70d6; }
+        .fc19 { fill: #6b6fd5; }
+        .fc20 { fill: #6b6ed4; }
+        .fc21 { fill: #6b6ed3; }
+        .fc22 { fill: #6b6dd2; }
+        .fc23 { fill: #6c6cd1; }
+        .fc24 { fill: #6c6bcf; }
+        .fc25 { fill: #6c6ace; }
+        .fc26 { fill: #6c6acd; }
+        .fc27 { fill: #6d69cc; }
+        .fc28 { fill: #6d68cb; }
+        .fc29 { fill: #6d67ca; }
+        .fc30 { fill: #6d66c9; }
+        .fc31 { fill: #6e66c8; }
+        .fc32 { fill: #6e65c7; }
+        .fc33 { fill: #6e64c5; }
+        .fc34 { fill: #6e63c4; }
+        .fc35 { fill: #6f63c3; }
+        .fc36 { fill: #6f62c2; }
+        .fc37 { fill: #6f61c1; }
+        .fc38 { fill: #6f60c0; }
+        .fc39 { fill: #705fbf; }
+        .fc40 { fill: #705fbe; }
+        .fc41 { fill: #705ebd; }
+        .fc42 { fill: #705dbb; }
+        .fc43 { fill: #715cba; }
+        .fc44 { fill: #715bb9; }
+        .fc45 { fill: #715bb8; }
+        .fc46 { fill: #715ab7; }
+        .fc47 { fill: #7259b6; }
+        .fc48 { fill: #7258b5; }
+        .fc49 { fill: #7258b4; }
+        .fc50 { fill: #7257b3; }
+        .fc51 { fill: #7356b2; }
+        .fc52 { fill: #7355b0; }
+        .fc53 { fill: #7354af; }
+        .fc54 { fill: #7354ae; }
+        .fc55 { fill: #7453ad; }
+        .fc56 { fill: #7452ac; }
+        .fc57 { fill: #7451ab; }
+        .fc58 { fill: #7450aa; }
+        .fc59 { fill: #7550a9; }
+        .fc60 { fill: #754fa8; }
+        .fc61 { fill: #754ea6; }
+        .fc62 { fill: #754da5; }
+        .fc63 { fill: #764da4; }
+        .fc64 { fill: #764ca3; }
+        .fc65 { fill: #764ba2; }
+    </style>
+<text x="2ch" y="4.5em"><tspan x="2ch" class="fc0"> </tspan><tspan x="3ch" class="fc1">█</tspan><tspan x="4ch" class="fc2">█</tspan><tspan x="5ch" class="fc3">█</tspan><tspan x="6ch" class="fc4">█</tspan><tspan x="7ch" class="fc5">█</tspan><tspan x="8ch" class="fc6">█</tspan><tspan x="9ch" class="fc7">╗</tspan><tspan x="10ch" class="fc8"> </tspan><tspan x="11ch" class="fc9"> </tspan><tspan x="12ch" class="fc10">█</tspan><tspan x="13ch" class="fc11">█</tspan><tspan x="14ch" class="fc12">╗</tspan><tspan x="15ch" class="fc13"> </tspan><tspan x="16ch" class="fc14"> </tspan><tspan x="17ch" class="fc15"> </tspan><tspan x="18ch" class="fc16">█</tspan><tspan x="19ch" class="fc17">█</tspan><tspan x="20ch" class="fc18">╗</tspan><tspan x="21ch" class="fc19"> </tspan><tspan x="22ch" class="fc20"> </tspan><tspan x="23ch" class="fc21">█</tspan><tspan x="24ch" class="fc22">█</tspan><tspan x="25ch" class="fc23">█</tspan><tspan x="26ch" class="fc24">█</tspan><tspan x="27ch" class="fc25">█</tspan><tspan x="28ch" class="fc26">█</tspan><tspan x="29ch" class="fc27">╗</tspan><tspan x="30ch" class="fc28"> </tspan><tspan x="31ch" class="fc29"> </tspan><tspan x="32ch" class="fc30">█</tspan><tspan x="33ch" class="fc31">█</tspan><tspan x="34ch" class="fc32">█</tspan><tspan x="35ch" class="fc33">█</tspan><tspan x="36ch" class="fc34">█</tspan><tspan x="37ch" class="fc35">█</tspan><tspan x="38ch" class="fc36">╗</tspan><tspan x="39ch" class="fc37"> </tspan><tspan x="40ch" class="fc38"> </tspan><tspan x="41ch" class="fc39">█</tspan><tspan x="42ch" class="fc40">█</tspan><tspan x="43ch" class="fc41">█</tspan><tspan x="44ch" class="fc42">█</tspan><tspan x="45ch" class="fc43">█</tspan><tspan x="46ch" class="fc44">█</tspan><tspan x="47ch" class="fc45">╗</tspan><tspan x="48ch" class="fc46"> </tspan><tspan x="49ch" class="fc47"> </tspan><tspan x="50ch" class="fc48">█</tspan><tspan x="51ch" class="fc49">█</tspan><tspan x="52ch" class="fc50">█</tspan><tspan x="53ch" class="fc51">█</tspan><tspan x="54ch" class="fc52">█</tspan><tspan x="55ch" class="fc53">█</tspan><tspan x="56ch" class="fc54">█</tspan><tspan x="57ch" class="fc55">╗</tspan><tspan x="58ch" class="fc56"> </tspan><tspan x="59ch" class="fc57">█</tspan><tspan x="60ch" class="fc58">█</tspan><tspan x="61ch" class="fc59">╗</tspan><tspan x="62ch" class="fc60"> </tspan><tspan x="63ch" class="fc61"> </tspan><tspan x="64ch" class="fc62"> </tspan><tspan x="65ch" class="fc63">█</tspan><tspan x="66ch" class="fc64">█</tspan><tspan x="67ch" class="fc65">╗</tspan></text>
+<text x="2ch" y="5.5em"><tspan x="2ch" class="fc0"> </tspan><tspan x="3ch" class="fc1">█</tspan><tspan x="4ch" class="fc2">█</tspan><tspan x="5ch" class="fc3">╔</tspan><tspan x="6ch" class="fc4">═</tspan><tspan x="7ch" class="fc5">═</tspan><tspan x="8ch" class="fc6">█</tspan><tspan x="9ch" class="fc7">█</tspan><tspan x="10ch" class="fc8">╗</tspan><tspan x="11ch" class="fc9"> </tspan><tspan x="12ch" class="fc10">█</tspan><tspan x="13ch" class="fc11">█</tspan><tspan x="14ch" class="fc12">║</tspan><tspan x="15ch" class="fc13"> </tspan><tspan x="16ch" class="fc14"> </tspan><tspan x="17ch" class="fc15"> </tspan><tspan x="18ch" class="fc16">█</tspan><tspan x="19ch" class="fc17">█</tspan><tspan x="20ch" class="fc18">║</tspan><tspan x="21ch" class="fc19"> </tspan><tspan x="22ch" class="fc20">█</tspan><tspan x="23ch" class="fc21">█</tspan><tspan x="24ch" class="fc22">╔</tspan><tspan x="25ch" class="fc23">═</tspan><tspan x="26ch" class="fc24">═</tspan><tspan x="27ch" class="fc25">═</tspan><tspan x="28ch" class="fc26">═</tspan><tspan x="29ch" class="fc27">╝</tspan><tspan x="30ch" class="fc28"> </tspan><tspan x="31ch" class="fc29">█</tspan><tspan x="32ch" class="fc30">█</tspan><tspan x="33ch" class="fc31">╔</tspan><tspan x="34ch" class="fc32">═</tspan><tspan x="35ch" class="fc33">═</tspan><tspan x="36ch" class="fc34">═</tspan><tspan x="37ch" class="fc35">█</tspan><tspan x="38ch" class="fc36">█</tspan><tspan x="39ch" class="fc37">╗</tspan><tspan x="40ch" class="fc38"> </tspan><tspan x="41ch" class="fc39">█</tspan><tspan x="42ch" class="fc40">█</tspan><tspan x="43ch" class="fc41">╔</tspan><tspan x="44ch" class="fc42">═</tspan><tspan x="45ch" class="fc43">═</tspan><tspan x="46ch" class="fc44">█</tspan><tspan x="47ch" class="fc45">█</tspan><tspan x="48ch" class="fc46">╗</tspan><tspan x="49ch" class="fc47"> </tspan><tspan x="50ch" class="fc48">█</tspan><tspan x="51ch" class="fc49">█</tspan><tspan x="52ch" class="fc50">╔</tspan><tspan x="53ch" class="fc51">═</tspan><tspan x="54ch" class="fc52">═</tspan><tspan x="55ch" class="fc53">═</tspan><tspan x="56ch" class="fc54">═</tspan><tspan x="57ch" class="fc55">╝</tspan><tspan x="58ch" class="fc56"> </tspan><tspan x="59ch" class="fc57">█</tspan><tspan x="60ch" class="fc58">█</tspan><tspan x="61ch" class="fc59">║</tspan><tspan x="62ch" class="fc60"> </tspan><tspan x="63ch" class="fc61"> </tspan><tspan x="64ch" class="fc62"> </tspan><tspan x="65ch" class="fc63">█</tspan><tspan x="66ch" class="fc64">█</tspan><tspan x="67ch" class="fc65">║</tspan></text>
+<text x="2ch" y="6.5em"><tspan x="2ch" class="fc0"> </tspan><tspan x="3ch" class="fc1">█</tspan><tspan x="4ch" class="fc2">█</tspan><tspan x="5ch" class="fc3">█</tspan><tspan x="6ch" class="fc4">█</tspan><tspan x="7ch" class="fc5">█</tspan><tspan x="8ch" class="fc6">█</tspan><tspan x="9ch" class="fc7">╔</tspan><tspan x="10ch" class="fc8">╝</tspan><tspan x="11ch" class="fc9"> </tspan><tspan x="12ch" class="fc10">█</tspan><tspan x="13ch" class="fc11">█</tspan><tspan x="14ch" class="fc12">║</tspan><tspan x="15ch" class="fc13"> </tspan><tspan x="16ch" class="fc14"> </tspan><tspan x="17ch" class="fc15"> </tspan><tspan x="18ch" class="fc16">█</tspan><tspan x="19ch" class="fc17">█</tspan><tspan x="20ch" class="fc18">║</tspan><tspan x="21ch" class="fc19"> </tspan><tspan x="22ch" class="fc20">█</tspan><tspan x="23ch" class="fc21">█</tspan><tspan x="24ch" class="fc22">║</tspan><tspan x="25ch" class="fc23"> </tspan><tspan x="26ch" class="fc24"> </tspan><tspan x="27ch" class="fc25"> </tspan><tspan x="28ch" class="fc26"> </tspan><tspan x="29ch" class="fc27"> </tspan><tspan x="30ch" class="fc28"> </tspan><tspan x="31ch" class="fc29">█</tspan><tspan x="32ch" class="fc30">█</tspan><tspan x="33ch" class="fc31">║</tspan><tspan x="34ch" class="fc32"> </tspan><tspan x="35ch" class="fc33"> </tspan><tspan x="36ch" class="fc34"> </tspan><tspan x="37ch" class="fc35">█</tspan><tspan x="38ch" class="fc36">█</tspan><tspan x="39ch" class="fc37">║</tspan><tspan x="40ch" class="fc38"> </tspan><tspan x="41ch" class="fc39">█</tspan><tspan x="42ch" class="fc40">█</tspan><tspan x="43ch" class="fc41">║</tspan><tspan x="44ch" class="fc42"> </tspan><tspan x="45ch" class="fc43"> </tspan><tspan x="46ch" class="fc44">█</tspan><tspan x="47ch" class="fc45">█</tspan><tspan x="48ch" class="fc46">║</tspan><tspan x="49ch" class="fc47"> </tspan><tspan x="50ch" class="fc48">█</tspan><tspan x="51ch" class="fc49">█</tspan><tspan x="52ch" class="fc50">█</tspan><tspan x="53ch" class="fc51">█</tspan><tspan x="54ch" class="fc52">█</tspan><tspan x="55ch" class="fc53">╗</tspan><tspan x="56ch" class="fc54"> </tspan><tspan x="57ch" class="fc55"> </tspan><tspan x="58ch" class="fc56"> </tspan><tspan x="59ch" class="fc57">█</tspan><tspan x="60ch" class="fc58">█</tspan><tspan x="61ch" class="fc59">║</tspan><tspan x="62ch" class="fc60"> </tspan><tspan x="63ch" class="fc61"> </tspan><tspan x="64ch" class="fc62"> </tspan><tspan x="65ch" class="fc63">█</tspan><tspan x="66ch" class="fc64">█</tspan><tspan x="67ch" class="fc65">║</tspan></text>
+<text x="2ch" y="7.5em"><tspan x="2ch" class="fc0"> </tspan><tspan x="3ch" class="fc1">█</tspan><tspan x="4ch" class="fc2">█</tspan><tspan x="5ch" class="fc3">╔</tspan><tspan x="6ch" class="fc4">═</tspan><tspan x="7ch" class="fc5">═</tspan><tspan x="8ch" class="fc6">═</tspan><tspan x="9ch" class="fc7">╝</tspan><tspan x="10ch" class="fc8"> </tspan><tspan x="11ch" class="fc9"> </tspan><tspan x="12ch" class="fc10">█</tspan><tspan x="13ch" class="fc11">█</tspan><tspan x="14ch" class="fc12">║</tspan><tspan x="15ch" class="fc13"> </tspan><tspan x="16ch" class="fc14"> </tspan><tspan x="17ch" class="fc15"> </tspan><tspan x="18ch" class="fc16">█</tspan><tspan x="19ch" class="fc17">█</tspan><tspan x="20ch" class="fc18">║</tspan><tspan x="21ch" class="fc19"> </tspan><tspan x="22ch" class="fc20">█</tspan><tspan x="23ch" class="fc21">█</tspan><tspan x="24ch" class="fc22">║</tspan><tspan x="25ch" class="fc23"> </tspan><tspan x="26ch" class="fc24"> </tspan><tspan x="27ch" class="fc25"> </tspan><tspan x="28ch" class="fc26"> </tspan><tspan x="29ch" class="fc27"> </tspan><tspan x="30ch" class="fc28"> </tspan><tspan x="31ch" class="fc29">█</tspan><tspan x="32ch" class="fc30">█</tspan><tspan x="33ch" class="fc31">║</tspan><tspan x="34ch" class="fc32"> </tspan><tspan x="35ch" class="fc33"> </tspan><tspan x="36ch" class="fc34"> </tspan><tspan x="37ch" class="fc35">█</tspan><tspan x="38ch" class="fc36">█</tspan><tspan x="39ch" class="fc37">║</tspan><tspan x="40ch" class="fc38"> </tspan><tspan x="41ch" class="fc39">█</tspan><tspan x="42ch" class="fc40">█</tspan><tspan x="43ch" class="fc41">║</tspan><tspan x="44ch" class="fc42"> </tspan><tspan x="45ch" class="fc43"> </tspan><tspan x="46ch" class="fc44">█</tspan><tspan x="47ch" class="fc45">█</tspan><tspan x="48ch" class="fc46">║</tspan><tspan x="49ch" class="fc47"> </tspan><tspan x="50ch" class="fc48">█</tspan><tspan x="51ch" class="fc49">█</tspan><tspan x="52ch" class="fc50">╔</tspan><tspan x="53ch" class="fc51">═</tspan><tspan x="54ch" class="fc52">═</tspan><tspan x="55ch" class="fc53">╝</tspan><tspan x="56ch" class="fc54"> </tspan><tspan x="57ch" class="fc55"> </tspan><tspan x="58ch" class="fc56"> </tspan><tspan x="59ch" class="fc57">╚</tspan><tspan x="60ch" class="fc58">█</tspan><tspan x="61ch" class="fc59">█</tspan><tspan x="62ch" class="fc60">╗</tspan><tspan x="63ch" class="fc61"> </tspan><tspan x="64ch" class="fc62">█</tspan><tspan x="65ch" class="fc63">█</tspan><tspan x="66ch" class="fc64">╔</tspan><tspan x="67ch" class="fc65">╝</tspan></text>
+<text x="2ch" y="8.5em"><tspan x="2ch" class="fc0"> </tspan><tspan x="3ch" class="fc1">█</tspan><tspan x="4ch" class="fc2">█</tspan><tspan x="5ch" class="fc3">║</tspan><tspan x="6ch" class="fc4"> </tspan><tspan x="7ch" class="fc5"> </tspan><tspan x="8ch" class="fc6"> </tspan><tspan x="9ch" class="fc7"> </tspan><tspan x="10ch" class="fc8"> </tspan><tspan x="11ch" class="fc9"> </tspan><tspan x="12ch" class="fc10">╚</tspan><tspan x="13ch" class="fc11">█</tspan><tspan x="14ch" class="fc12">█</tspan><tspan x="15ch" class="fc13">█</tspan><tspan x="16ch" class="fc14">█</tspan><tspan x="17ch" class="fc15">█</tspan><tspan x="18ch" class="fc16">█</tspan><tspan x="19ch" class="fc17">╔</tspan><tspan x="20ch" class="fc18">╝</tspan><tspan x="21ch" class="fc19"> </tspan><tspan x="22ch" class="fc20">╚</tspan><tspan x="23ch" class="fc21">█</tspan><tspan x="24ch" class="fc22">█</tspan><tspan x="25ch" class="fc23">█</tspan><tspan x="26ch" class="fc24">█</tspan><tspan x="27ch" class="fc25">█</tspan><tspan x="28ch" class="fc26">█</tspan><tspan x="29ch" class="fc27">╗</tspan><tspan x="30ch" class="fc28"> </tspan><tspan x="31ch" class="fc29">╚</tspan><tspan x="32ch" class="fc30">█</tspan><tspan x="33ch" class="fc31">█</tspan><tspan x="34ch" class="fc32">█</tspan><tspan x="35ch" class="fc33">█</tspan><tspan x="36ch" class="fc34">█</tspan><tspan x="37ch" class="fc35">█</tspan><tspan x="38ch" class="fc36">╔</tspan><tspan x="39ch" class="fc37">╝</tspan><tspan x="40ch" class="fc38"> </tspan><tspan x="41ch" class="fc39">█</tspan><tspan x="42ch" class="fc40">█</tspan><tspan x="43ch" class="fc41">█</tspan><tspan x="44ch" class="fc42">█</tspan><tspan x="45ch" class="fc43">█</tspan><tspan x="46ch" class="fc44">█</tspan><tspan x="47ch" class="fc45">╔</tspan><tspan x="48ch" class="fc46">╝</tspan><tspan x="49ch" class="fc47"> </tspan><tspan x="50ch" class="fc48">█</tspan><tspan x="51ch" class="fc49">█</tspan><tspan x="52ch" class="fc50">█</tspan><tspan x="53ch" class="fc51">█</tspan><tspan x="54ch" class="fc52">█</tspan><tspan x="55ch" class="fc53">█</tspan><tspan x="56ch" class="fc54">█</tspan><tspan x="57ch" class="fc55">╗</tspan><tspan x="58ch" class="fc56"> </tspan><tspan x="59ch" class="fc57"> </tspan><tspan x="60ch" class="fc58">╚</tspan><tspan x="61ch" class="fc59">█</tspan><tspan x="62ch" class="fc60">█</tspan><tspan x="63ch" class="fc61">█</tspan><tspan x="64ch" class="fc62">█</tspan><tspan x="65ch" class="fc63">╔</tspan><tspan x="66ch" class="fc64">╝</tspan></text>
+<text x="2ch" y="9.5em"><tspan x="2ch" class="fc0"> </tspan><tspan x="3ch" class="fc1">╚</tspan><tspan x="4ch" class="fc2">═</tspan><tspan x="5ch" class="fc3">╝</tspan><tspan x="6ch" class="fc4"> </tspan><tspan x="7ch" class="fc5"> </tspan><tspan x="8ch" class="fc6"> </tspan><tspan x="9ch" class="fc7"> </tspan><tspan x="10ch" class="fc8"> </tspan><tspan x="11ch" class="fc9"> </tspan><tspan x="12ch" class="fc10"> </tspan><tspan x="13ch" class="fc11">╚</tspan><tspan x="14ch" class="fc12">═</tspan><tspan x="15ch" class="fc13">═</tspan><tspan x="16ch" class="fc14">═</tspan><tspan x="17ch" class="fc15">═</tspan><tspan x="18ch" class="fc16">═</tspan><tspan x="19ch" class="fc17">╝</tspan><tspan x="20ch" class="fc18"> </tspan><tspan x="21ch" class="fc19"> </tspan><tspan x="22ch" class="fc20"> </tspan><tspan x="23ch" class="fc21">╚</tspan><tspan x="24ch" class="fc22">═</tspan><tspan x="25ch" class="fc23">═</tspan><tspan x="26ch" class="fc24">═</tspan><tspan x="27ch" class="fc25">═</tspan><tspan x="28ch" class="fc26">═</tspan><tspan x="29ch" class="fc27">╝</tspan><tspan x="30ch" class="fc28"> </tspan><tspan x="31ch" class="fc29"> </tspan><tspan x="32ch" class="fc30">╚</tspan><tspan x="33ch" class="fc31">═</tspan><tspan x="34ch" class="fc32">═</tspan><tspan x="35ch" class="fc33">═</tspan><tspan x="36ch" class="fc34">═</tspan><tspan x="37ch" class="fc35">═</tspan><tspan x="38ch" class="fc36">╝</tspan><tspan x="39ch" class="fc37"> </tspan><tspan x="40ch" class="fc38"> </tspan><tspan x="41ch" class="fc39">╚</tspan><tspan x="42ch" class="fc40">═</tspan><tspan x="43ch" class="fc41">═</tspan><tspan x="44ch" class="fc42">═</tspan><tspan x="45ch" class="fc43">═</tspan><tspan x="46ch" class="fc44">═</tspan><tspan x="47ch" class="fc45">╝</tspan><tspan x="48ch" class="fc46"> </tspan><tspan x="49ch" class="fc47"> </tspan><tspan x="50ch" class="fc48">╚</tspan><tspan x="51ch" class="fc49">═</tspan><tspan x="52ch" class="fc50">═</tspan><tspan x="53ch" class="fc51">═</tspan><tspan x="54ch" class="fc52">═</tspan><tspan x="55ch" class="fc53">═</tspan><tspan x="56ch" class="fc54">═</tspan><tspan x="57ch" class="fc55">╝</tspan><tspan x="58ch" class="fc56"> </tspan><tspan x="59ch" class="fc57"> </tspan><tspan x="60ch" class="fc58"> </tspan><tspan x="61ch" class="fc59">╚</tspan><tspan x="62ch" class="fc60">═</tspan><tspan x="63ch" class="fc61">═</tspan><tspan x="64ch" class="fc62">═</tspan><tspan x="65ch" class="fc63">╝</tspan></text>
+</svg>

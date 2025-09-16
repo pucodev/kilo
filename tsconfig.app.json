@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+    "target": "ES2022",
+    "useDefineForClassFields": true,
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "erasableSyntaxOnly": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true,
+
+    "paths": {
+      "@models/*": ["./src/js/models/*"],
+      "@services/*": ["./src/js/services/*"],
+      "@collections/*": ["./src/js/collections/*"],
+      "@utils/*": ["./src/js/utils/*"],
+      "@api/*": ["./src/js/api/*"],
+      "@pages/*": ["./src/views/pages/*"],
+      "@components/*": ["./src/views/components/*"],
+      "@pucoui/*": ["./src/views/vendor/pucoui/*"],
+      "@routes/*": ["./src/routes/*"]
+    }
+  },
+  "include": ["src"]
+}

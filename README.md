@@ -4,7 +4,6 @@
 
 - [Node.js](https://nodejs.org/en/download)
 - [pnpm](https://pnpm.io/installation#using-corepack)
-- PostgreSQL (running locally, via Docker, or an external service)
 
 ## Wireframes
 
@@ -23,3 +22,13 @@
 ### Results
 
 ![pucodev](assets/results.png)
+
+## Screens
+
+![pucodev](assets/screen1.png)
+
+![pucodev](assets/screen2.png)
+
+## Try
+
+[https://kilo.pucohouse.xyz/](https://kilo.pucohouse.xyz/)

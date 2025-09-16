@@ -6,6 +6,9 @@ export const urls = {
     SINGIN: `${API_URL}/auth/signin`,
     SIGNUP: `${API_URL}/auth/signup`,
   },
+  ZONES: {
+    ROOT: `${API_URL}/zones`,
+  },
   ITEMS: {
     ROOT: `${API_URL}/estimates`,
   },

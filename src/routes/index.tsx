@@ -2,6 +2,7 @@ import Signin from '@pages/auth/Signin'
 import Signup from '@pages/auth/Signup'
 import Empty from '@pages/home/Empty'
 import Home from '@pages/home/Home'
+import HomeKilo from '@pages/home/HomeKilo'
 import { createBrowserRouter } from 'react-router-dom'
 
 import { AuthRoute } from './AuthRoute'
@@ -25,7 +26,7 @@ export const router = createBrowserRouter([
     path: '/',
     element: <ProtectedRoute />,
     children: [
-      { path: '', element: <Home /> },
+      { path: '', element: <HomeKilo /> },
       { path: '/elements', element: <Empty /> },
     ],
   },

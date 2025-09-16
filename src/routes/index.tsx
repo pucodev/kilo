@@ -27,6 +27,7 @@ export const router = createBrowserRouter([
     element: <ProtectedRoute />,
     children: [
       { path: '', element: <HomeKilo /> },
+      { path: 'apply', element: <HomeKilo /> },
       { path: '/elements', element: <Empty /> },
     ],
   },

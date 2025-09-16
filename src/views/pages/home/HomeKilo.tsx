@@ -12,6 +12,7 @@ import {
 import ZoneService from '@services/zone.service'
 import applog from '@utils/logger'
 import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 import { useSearchParams } from 'react-router-dom'
 
 export default function HomeKilo() {
@@ -52,7 +53,9 @@ export default function HomeKilo() {
 
               <CardActions>
                 <Button outlined>View</Button>
-                <Button>Apply</Button>
+                <Link className="btn" to={`/apply/?zone=${zone.id}`}>
+                  Apply
+                </Link>
               </CardActions>
             </Card>
           ))}

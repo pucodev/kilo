@@ -21,8 +21,8 @@ export default function Sidebar() {
     },
     {
       id: 2,
-      name: 'Elements',
-      path: '/elements',
+      name: 'Apply',
+      path: '/apply',
       icon: 'mdi:user-outline',
     },
   ]

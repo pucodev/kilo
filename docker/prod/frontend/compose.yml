@@ -1,0 +1,15 @@
+services:
+  kilo-app:
+    build:
+      context: ../../..
+      dockerfile: docker/prod/frontend/Dockerfile
+    container_name: ${CONTAINER_NAME:-kilo-app}
+    ports:
+      - '${PORT:-4001}:80'
+    restart: always
+    networks:
+      - kilo-network
+
+networks:
+  kilo-network:
+    driver: bridge

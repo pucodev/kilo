@@ -64,9 +64,9 @@ export default function Apply() {
         value: date,
         validators: {
           custom: {
-            validate(value: string) {
+            validate(value: string | number | undefined) {
               // FIXME: Validate that is a real date
-              return /^\d{4}-\d{2}-\d{2}$/.test(value)
+              return /^\d{4}-\d{2}-\d{2}$/.test(value as string)
             },
             message: 'Date in format YYYY-MM-DD',
           },

@@ -2,14 +2,7 @@ import Loader from '@components/loader/Loader'
 import ZoneCard from '@components/zone/ZoneCard'
 import type ZoneModel from '@models/zone.model'
 import { Button } from '@pucoui/Button'
-import {
-  Card,
-  CardActions,
-  CardBody,
-  CardContent,
-  CardImage,
-  CardTitle,
-} from '@pucoui/Card'
+import { Card, CardActions } from '@pucoui/Card'
 import ZoneService from '@services/zone.service'
 import applog from '@utils/logger'
 import { useEffect, useState } from 'react'

@@ -1,10 +1,9 @@
- 
 export interface OptionValidate {
   value: string | number | undefined
-  onFailed?: (value: string) => boolean
+  onFailed?: () => boolean
   validators: {
     custom?: {
-      validate: (value: string) => boolean
+      validate: (value: string | number | undefined) => boolean
       message: string
     }
     numeric?: {

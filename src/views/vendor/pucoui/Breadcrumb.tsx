@@ -1,4 +1,5 @@
 import React from 'react'
+
 import { Icon } from './Icon'
 
 interface BreadcrumbItemProps
@@ -94,7 +95,7 @@ export function Breadcrumb({ items, className, ...props }: BreadcrumbProps) {
   return (
     <div className={`breadcrumbs ${className || ''}`} {...props}>
       <ol>
-        {items.map((item) => (
+        {items.map(item => (
           <li key={item.href || item.item}>
             <BreadcrumbItem href={item.href}>
               {item.icon ? <Icon icon={item.icon} /> : <></>}

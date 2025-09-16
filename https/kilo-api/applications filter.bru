@@ -1,0 +1,20 @@
+meta {
+  name: applications filter
+  type: http
+  seq: 6
+}
+
+get {
+  url: {{host}}/api/applications?zone=1&date=2020-08-05
+  body: none
+  auth: inherit
+}
+
+params:query {
+  zone: 1
+  date: 2020-08-05
+}
+
+settings {
+  encodeUrl: true
+}

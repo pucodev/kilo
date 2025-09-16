@@ -12,6 +12,8 @@ import {
 import { Field, FieldLabel } from '@pucoui/Field'
 import { Input } from '@pucoui/Input'
 import applog from '@utils/logger'
+import { showError, showMessage } from '@utils/utils'
+import Validate from '@utils/validate'
 import { useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
 
@@ -20,6 +22,8 @@ export default function Apply() {
   const selectedZone = Number(searchParams.get('zone') || 0)
   const [zones, setZones] = useState<ZoneModel[]>([])
   const [isShowDialog, setIsShowDialog] = useState(false)
+  const [names, setNames] = useState('')
+  const [date, setDate] = useState('')
   applog.debug('Selected Zone = ', selectedZone)
 
   function onAddZone(zone: ZoneModel) {
@@ -35,6 +39,49 @@ export default function Apply() {
     setZones(prev => prev.filter(item => item.id !== id))
   }
 
+  function submit() {
+    const validate = new Validate([
+      {
+        value: names,
+        validators: {
+          required: {
+            message: 'Names',
+          },
+        },
+      },
+      {
+        value: zones.length,
+        validators: {
+          between: {
+            min: 1,
+            max: 3,
+            inclusive: true,
+            message: 'Select one zone',
+          },
+        },
+      },
+      {
+        value: date,
+        validators: {
+          custom: {
+            validate(value: string) {
+              // FIXME: Validate that is a real date
+              return /^\d{4}-\d{2}-\d{2}$/.test(value)
+            },
+            message: 'Date in format YYYY-MM-DD',
+          },
+        },
+      },
+    ])
+
+    if (!validate.isValid()) {
+      showError(validate.getStrErrors())
+      return
+    }
+
+    showMessage('Application is submitted', { title: 'Success' })
+  }
+
   return (
     <div>
       <h3 className="mb-4">Apply</h3>
@@ -42,7 +89,13 @@ export default function Apply() {
       <div className="is-stack">
         <Field>
           <FieldLabel htmlFor="names">Names</FieldLabel>
-          <Input id="names" type="text" placeholder="Insert names" />
+          <Input
+            value={names}
+            onChange={e => setNames(e.target.value)}
+            id="names"
+            type="text"
+            placeholder="Insert names"
+          />
         </Field>
         <Field>
           <FieldLabel>Zones</FieldLabel>
@@ -91,9 +144,11 @@ export default function Apply() {
             id="names"
             type="text"
             placeholder="Insert date format(YYYY-MM-DD)"
+            value={date}
+            onChange={e => setDate(e.target.value)}
           />
         </Field>
-        <Button>Apply</Button>
+        <Button onClick={submit}>Apply</Button>
       </div>
 
       {isShowDialog ? (

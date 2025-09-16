@@ -12,6 +12,14 @@ export function showError(message: string, options: ShowErrorOptions = {}) {
     icon: 'error',
   })
 }
+export function showMessage(message: string, options: ShowErrorOptions = {}) {
+  const { title = 'Ops!' } = options
+  Swal.fire({
+    title,
+    text: message,
+    icon: 'success',
+  })
+}
 
 export function formatCurrency(amount: number) {
   return `$ ${(Math.round(amount * 100) / 100).toFixed(2)} USD`

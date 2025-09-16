@@ -1,4 +1,5 @@
 import Loader from '@components/loader/Loader'
+import ZoneCard from '@components/zone/ZoneCard'
 import type ZoneModel from '@models/zone.model'
 import { Button } from '@pucoui/Button'
 import {
@@ -44,20 +45,14 @@ export default function HomeKilo() {
       ) : (
         <div className="is-stack is-gap-5">
           {zones.map(zone => (
-            <Card key={zone.id}>
-              <CardImage src={zone.imageSrc} className="is-3by1" />
-              <CardBody>
-                <CardTitle>{zone.name}</CardTitle>
-                <CardContent>{zone.description}</CardContent>
-              </CardBody>
-
+            <ZoneCard zone={zone} key={zone.id}>
               <CardActions>
                 <Button outlined>View</Button>
                 <Link className="btn" to={`/apply/?zone=${zone.id}`}>
                   Apply
                 </Link>
               </CardActions>
-            </Card>
+            </ZoneCard>
           ))}
         </div>
       )}

@@ -7,6 +7,14 @@ import ZoneModel from '@models/zone.model'
 import MainService from './main.service'
 
 export default class ZoneService extends MainService {
+  public static async searchZones(search: string) {
+    const response = await Api.request<{ data: Record<number, ZoneNode>[] }>(
+      'get',
+      `${urls.ZONES.ROOT}?search=${search}`,
+    )
+
+    return response.data.data.map(v => new ZoneModel(Object.values(v)[0]))
+  }
   public static async fetchZones() {
     const response = await Api.request<{ data: Record<number, ZoneNode>[] }>(
       'get',

@@ -1,3 +1,4 @@
+import SelectZoneDialog from '@components/apply/SelectZoneDialog'
 import { Button } from '@pucoui/Button'
 import {
   Card,
@@ -64,6 +65,8 @@ export default function Apply() {
         </Field>
         <Button>Apply</Button>
       </div>
+
+      <SelectZoneDialog></SelectZoneDialog>
     </div>
   )
 }
